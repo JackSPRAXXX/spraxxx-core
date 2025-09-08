@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Allow access to CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Disallow private directories
+Disallow: /src/
+Disallow: /db/
+Disallow: /workers/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://spraxxx.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
