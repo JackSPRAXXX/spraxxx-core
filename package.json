@@ -1,7 +1,21 @@
-{  
+{
+  "name": "spraxxx-core",
+  "version": "1.0.0",
+  "description": "SPRAXXX Core - Digital sovereignty platform",
+  "main": "src/app.js",
+  "scripts": {
+    "seo:generate": "node scripts/seo-tools.js generate",
+    "seo:validate": "node scripts/seo-tools.js validate", 
+    "seo:check": "node scripts/seo-tools.js check",
+    "seo:all": "node scripts/seo-tools.js all",
+    "build": "node scripts/seo-tools.js generate"
+  },
+  "keywords": ["digital sovereignty", "privacy", "security", "wireguard", "vpn"],
+  "author": "Jacques (SPRAXXX Steward)",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {  
     "tweetnacl": "^1.0.3",  
     "better-sqlite3": "^7.4.3",  
     "express": "^4.17.1"  
-  }  
+  }
 }
